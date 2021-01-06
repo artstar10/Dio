@@ -1,27 +1,54 @@
-# JvWeather
+<h2>Digital Innovation: Expert class - Desenvolvendo um sistema de gerenciamento de pessoas em API REST com Spring Boot</h2>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
+Nesta live coding vamos desenvolver um pequeno sistema para o gerenciamento de pessoas de uma empresa através de uma API REST, criada com o Spring Boot.
 
-## Development server
+Durante a sessão, serão desenvolvidos e abordados os seguintes tópicos:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+* Setup inicial de projeto com o Spring Boot Initialzr 
+* Criação de modelo de dados para o mapeamento de entidades em bancos de dados
+* Desenvolvimento de operações de gerenciamento de usuários (Cadastro, leitura, atualização e remoção de pessoas de um sistema).
+* Relação de cada uma das operações acima com o padrão arquitetural REST, e a explicação de cada um dos conceitos REST envolvidos durante o desenvolvimento do projeto.
+* Desenvolvimento de testes unitários para validação das funcionalidades
+* Implantação do sistema na nuvem através do Heroku
 
-## Code scaffolding
+Para executar o projeto no terminal, digite o seguinte comando:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```shell script
+mvn spring-boot:run 
+```
 
-## Build
+Após executar o comando acima, basta apenas abrir o seguinte endereço e visualizar a execução do projeto:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+```
+http://localhost:8080/api/v1/people
+```
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+São necessários os seguintes pré-requisitos para a execução do projeto desenvolvido durante a aula:
 
-## Running end-to-end tests
+* Java 11 ou versões superiores.
+* Maven 3.6.3 ou versões superiores.
+* Intellj IDEA Community Edition ou sua IDE favorita.
+* Controle de versão GIT instalado na sua máquina.
+* Conta no GitHub para o armazenamento do seu projeto na nuvem.
+* Conta no Heroku para o deploy do projeto na nuvem
+* Muita vontade de aprender e compartilhar conhecimento :)
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Abaixo, seguem links bem bacanas, sobre tópicos mencionados durante a aula:
 
-## Further help
+* [SDKMan! para gerenciamento e instalação do Java e Maven](https://sdkman.io/)
+* [Referência do Intellij IDEA Community, para download](https://www.jetbrains.com/idea/download)
+* [Palheta de atalhos de comandos do Intellij](https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf)
+* [Site oficial do Spring](https://spring.io/)
+* [Site oficial do Spring Initialzr, para setup do projeto](https://start.spring.io/)
+* [Site oficial do Heroku](https://www.heroku.com/)
+* [Site oficial do GIT](https://git-scm.com/)
+* [Site oficial do GitHub](http://github.com/)
+* [Documentação oficial do Lombok](https://projectlombok.org/)
+* [Documentação oficial do Map Struct](https://mapstruct.org/)
+* [Referência para o padrão arquitetural REST](https://restfulapi.net/)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+[Neste link](https://drive.google.com/file/d/1crVPOVl6ok2HeYjh3fjQuGQn2lDZVHrn/view?usp=sharing), seguem os slides apresentados como o roteiro utilizado para o desenvolvimento do projeto da nossa sessão.
+
+
+
