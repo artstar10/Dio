@@ -7,6 +7,15 @@
 
 ```
 
+# pastas e arquivos do projeto
+```
+> public: index.html
+> src: index.js, styles.css
+
+```
+# Informações adicionais:
+O react é uma single page aplication: spa - ou seja uma aplicação única
+```
 # Fontes:
 https://pt-br.reactjs.org/
 ```
