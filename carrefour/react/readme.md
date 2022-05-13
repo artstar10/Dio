@@ -3,7 +3,8 @@
 
 # Início do projeto: para instalar as depêndencias do projeto por versão!
 ```
-> npm install --save react@16.8.6 react-dom@16.8.6 react-scripts@3.0.1 
+> npm install --save react@16.8.6 react-dom@16.8.6 react-scripts@3.0.1
+> npm install --save-dev eslint babel-eslint eslint-plugin-react eslint-watch 
 
 ```
 
