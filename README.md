@@ -1,6 +1,6 @@
 # Bootcamps - Digital Innovation One
 
-**meus Bootcamps** repositório com os bootcamps da **Digital Innovation One**.
+Repositório para os bootcamps da **Digital Innovation One**.
 
 ### Meus Bootcamps
 
