@@ -1,0 +1,38 @@
+O que são Diretivas?
+São marcadores em um elemento DOM (como um atributo) que informam ao Angular para anexar um comportamento especificado a um elemento existente.
+
+Se tratando de “maneiras de realizar Data Binding”, qual das alternativas abaixo contém o conceito de “Two-way data binding”?
+[(ngModel)]="propriedade"
+associa informação entre ambos, ou seja, mantém ambos atualizados (componente e template HTML).
+
+Qual o significado do acrônimo SPA?
+Single Page Applications (SPA) são aplicações Web que consistem em soluções com uma única página, onde o objetivo é fornecer uma experiência do usuário similar à de um aplicativo Desktop.
+
+O que é Angular?
+É uma plataforma e framework para construção de aplicações Web usando HTML, CSS e, principalmente, JavaScript, criada pelos desenvolvedores da Google.
+
+Qual o comando para iniciar o servidor no Angular?
+ng serve -o
+
+“Quando importamos AppRoutingModule em AppModule, ele nos permite adicioná-la dentro do arquivo HTML do AppComponent. Desta forma podemos passar as rotas para que ele possa interpretá-las e direcionar para o component correto.”
+Em qual arquivo a tag <router-outlet></router-outlet> se encontra?
+app.component.html
+
+Sobre o AngularJS e Angular, assinale a alternativa correta:
+AngularJS foi a primeira versão do Angular, onde o JavaScript é a linguagem principal. Por outro lado, o Angular possui um CLI, para criação fácil de novos projetos, componentes e serviços, além de suportar TypeScript nativamente.
+
+O que é Bootstrap?
+É um framework CSS que organiza e gerencia o layout de um site.
+
+Defina o "Angular Material":
+Ele é composto por diversos componentes, bibliotecas CSS e outros elementos, além de fazer parte do gerenciador de pacotes do Node o NPM.
+
+
+
+
+
+
+
+
+
+
