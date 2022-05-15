@@ -1,6 +1,8 @@
 const dino = document.querySelector('.dino');
 const background = document.querySelector('.background');
+
 let isJumping = false;
+let isGameOver = false;
 let position = 0;
 
 function handleKeyUp(event) {
@@ -16,9 +18,9 @@ function jump() {
   
     let upInterval = setInterval(() => {
       if (position >= 150) {
+        // DESCENDO
           clearInterval(upInterval);
-          
-          // Descendo
+
         let downInterval = setInterval(() => {
           if (position <= 0) {
             clearInterval(downInterval);
@@ -29,7 +31,7 @@ function jump() {
           }
         }, 20);
     } else {
-        // Subindo
+        // SUBINDO
         position += 20;
         dino.style.bottom = position + 'px';
       }
@@ -37,21 +39,25 @@ function jump() {
   }
 
   function createCactus() {
-    const cactus = document.querySelector('div');
+    const cactus = document.createElement('div');
     let cactusPosition = 1000;
     let randomTime = Math.random() * 6000;
 
-    cactus.classList.add('cactus');
-    cactus.style.left = 1000 + 'px';
-    background.appendChild(cactus);
+    if(isGameOver) return;
 
-    let leftInterval = setInterval(() => {
+    cactus.classList.add('cactus');
+    background.appendChild(cactus);
+    cactus.style.left = cactusPosition + 'px';
+
+    let leftTimer = setInterval(() => {
         if(cactusPosition < -60){
-            clearInterval(leftInterval);
+          // SAIU DA TELA
+            clearInterval(leftTimer);
             background.removeChild(cactus);
         } else if(cactusPosition > 0 && cactusPosition < 60 && position < 60){
-          // Game Over
-          clearInterval(leftInterval);
+          // GAME OVER
+          clearInterval(leftTimer);
+          isGameOver = true;
           document.body.innerHTML = '<h1 class="game-over">Fim de Jogo</h1>';
         } else{
             cactusPosition -= 10;
