@@ -1,12 +1,29 @@
 interface Veiculo {
     nome: string;
     placa: string;
-    entrada: Date;
+    entrada: Date | string;
+    clientId?: string;
+}
+
+interface Pessoa {
+    nome: string;
+    cpf: string;
+};
+
+interface Cliente extends Pessoa {
+    veiculos: Veiculo[];
 }
 
 (function () {
     const $ = (query: string): HTMLInputElement | null =>  
     document.querySelector(query);
+
+    function calculoTempo(milisegundos: number) {
+        const minutos = Math.floor(milisegundos / 6000);
+        const segundos = Math.floor(milisegundos % 6000) / 1000;
+
+        return `${minutos}m e ${segundos}`;
+    }
 
     function patio() {
         function ler(): Veiculo[] {
@@ -17,7 +34,7 @@ interface Veiculo {
             localStorage.setItem("patio", JSON.stringify(veiculos));
         }
 
-        function adicionar(veiculo: Veiculo, salva?: boolean) {
+        function adicionar(veiculo: Veiculo & { cupom?: string }, salva?: boolean) {
             const row = document.createElement("tr");
 
             row.innerHTML = `
@@ -29,12 +46,27 @@ interface Veiculo {
             </td>
             `;
 
+            row.querySelector(".delete")?.addEventListener("click", function(){
+                remover(this.dataset.placa as string);
+            });
+
             $("#patio")?.appendChild(row);
 
             if(salva) salvar([...ler(), veiculo]);
         }
 
-        function remover() {}
+        function remover(placa: string) {
+            const {entrada, nome} = ler().find(
+                veiculo => veiculo.placa === placa
+            );
+
+            const tempo = calculoTempo(new Date().getTime() - new Date(entrada).getTime());
+
+            if(!confirm(`O veículo ${nome} permaneceu por ${tempo}. Deseja encerrar?`)) return;
+
+            salvar(ler().filter(veiculo => veiculo.placa !== placa));
+            render();
+        }
 
         function render() {
             $("#patio")!.innerHTML = "";
@@ -58,6 +90,6 @@ interface Veiculo {
             return;
         }
 
-        patio().adicionar({ nome, placa, entrada: new Date()}, true);
+        patio().adicionar({ nome, placa, entrada: new Date().toISOString()}, true);
     });
 })();
