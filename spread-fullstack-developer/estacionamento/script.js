@@ -21,7 +21,7 @@
             </td>
             `;
             (_a = $("#patio")) === null || _a === void 0 ? void 0 : _a.appendChild(row);
-            salvar([...ler().veiculo]);
+            salvar([...ler(), veiculo]);
         }
         function remover() { }
         function render() { }

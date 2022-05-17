@@ -31,7 +31,7 @@ interface Veiculo {
 
             $("#patio")?.appendChild(row);
 
-            salvar([...ler(). veiculo]);
+            salvar([...ler(), veiculo]);
         }
 
         function remover() {}
