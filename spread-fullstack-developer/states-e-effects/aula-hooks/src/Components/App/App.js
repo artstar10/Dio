@@ -6,7 +6,7 @@ import IfoodCounter from '../IfoodCounter/IfoodCounter';
 function App() {
   return (
     <>
-      <h1>Hello World</h1>
+      <h1>Ifood</h1>
      <SmartCounter />
      <IfoodCounter />
     </>
