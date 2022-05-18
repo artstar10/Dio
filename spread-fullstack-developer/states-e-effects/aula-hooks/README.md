@@ -1,4 +1,4 @@
-# Bootcamp: Projeto botão de adcionar do ifood - React.js
+# Bootcamp: Projeto botão de adicionar do ifood - React.js
  Projeto simulando o botão de adicionar e remover do aplicativo ifood
 ### Resultado final do Projeto abaixo:
 
