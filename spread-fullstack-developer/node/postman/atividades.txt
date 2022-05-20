@@ -1,0 +1,35 @@
+1. “/api/dev/user/{id}” Seguindo o padrão RestFul, o endpoint citado, é comumente utilizado com quais métodos HTTP?
+R PUT E DELETE
+
+2. O que é o Postman?
+R. É uma ferramenta que dá suporte à documentação das requisições feitas pela API.
+
+3. Sobre os Status Codes, assinale a alternativa correta acerca dos retornos de cada status:
+R: 2x... = Sucesso
+4x… = Erro no cliente
+5x… = Erro server side
+
+4. De maneira simples, como podemos descrever o que é API?
+R: A API liga as diversas funções de um site de maneira que possam ser utilizadas em outras aplicações.
+
+5. Qual a diferença entre ReST e ReSTfull?
+R: O termo REST é um padrão de arquitetura para criar serviços e disponibilizá-los na Web. Um serviço RESTful é simplesmente aquele que realiza a implementação deste padrão.
+
+6. Para consumir uma API, qual tecnologia no back-end deve ser utilizada?
+R: Qualquer linguagem de programação com suporte para web.
+
+7. Seguindo a metodologia ReSTfull,  para que serve o método HTTP “GET”?
+R: Obter dados.
+
+8. Quando o método HTTP “POST” é utilizado corretamente, geralmente é retornado qual status code?
+R: 201
+
+9. Dos endpoints abaixo, NÃO está seguindo um padrão ReST?
+R: PUT: /api/dev/user
+
+10. “É a URL onde seu serviço pode ser acessado por uma aplicação cliente. “ Na frase citada, simplificamos o conceito de:
+R: Endpoint
+
+
+
+
