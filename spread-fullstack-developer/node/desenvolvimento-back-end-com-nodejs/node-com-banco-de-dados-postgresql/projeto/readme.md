@@ -14,6 +14,11 @@ npm init -y
 npm i --save pg
 
 ```
+# instalar o Sequelize
+```
+npm i --save sequelize
+
+```
  Projeto: Desenvolvimento Node.js com banco de dados PostgreSQL
 
 download do postgresqlb em: 
