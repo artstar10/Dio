@@ -36,4 +36,13 @@ https://www.docker.com/
 
 ```
 
+
+### Requisitos para se trabalhar com o Node.js
+
+```
+Conhecer Javascript
+Familiaridade com Comandos de terminal
+
+
+```
 ![Bootcamp Logo](https://img.shields.io/badge/-Nodejs-333333?style=flat&logo=nodejs "Logo") [Projeto Node.js com PostgreSQL](https://github.com/artstar10/Dio/tree/master/spread-fullstack-developer/node)  - **Desenvolvimento Back-end Com Node.js e demais tecnologias**
