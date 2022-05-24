@@ -17,7 +17,7 @@ const getUsers = () => {
 
 const saveUser = (users) => fs.writeFileSync(filePath, JSON.stringify(users, null, '\t'))
 
-const userRoute = (app) => {
+const userRoute = (app) => { // ROTA COMPLETA COM TODOS OS MÉTODOS GET, POST, PUT E DELETE
     app.route('/users/:id?')
     .get((req, res) => {
         const users = getUsers()
@@ -31,6 +31,29 @@ const userRoute = (app) => {
         saveUser(users)
 
         res.status(201).send('Usuário criado')
+    })
+    .put((req, res) => {
+        const users = getUsers()
+
+        saveUser(users.map(user => {
+            if(user.id === req.params.id){
+                return {
+                    ...user,
+                    ...req.body
+                }
+            }
+
+            return user
+        }))
+
+        res.status(200).send('Atualizado!')
+    })
+    .delete((req, res) => {
+        const users = getUsers()
+
+        saveUser(users.filter(user => user.id != req.body.id))
+
+        res.status(200).send('Usuário deletado!')
     })
 }
 
