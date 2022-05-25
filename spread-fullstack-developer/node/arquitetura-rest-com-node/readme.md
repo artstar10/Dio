@@ -29,14 +29,11 @@ Explorando o Estilo Arquitetural REST com Node.js
   
 
 <h3> para instalar as dependências do projeto </h3>
+
 ### para instalar o Typescript
-
-npm i -g typescript
-
-```
+> npm i -g typescript
 ### para gerar o tsconfig.json
-```
-tsc --init
+> tsc --init
 
 
 <a href="https://github.com/artstar10">
