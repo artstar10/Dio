@@ -64,6 +64,8 @@ http://localhost:3000/status
 http://localhost:3000/users
 ### rota de usuários por id
 http://localhost:3000/users/1
+### rota para cadastro de usuários
+http://localhost:3000/users
 
 <a href="https://github.com/artstar10">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=artstar10&theme=dracula&show_icons=true" />
