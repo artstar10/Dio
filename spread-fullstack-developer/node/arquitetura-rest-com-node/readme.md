@@ -54,8 +54,10 @@ Explorando o Estilo Arquitetural REST com Node.js
 
 <h3> Enpoints do projeto for Insomnia and Postman </h3>
 
-### rota status
+### rota de status
 http://localhost:3000/status
+### rota de usuários
+http://localhost:3000/users
 
 <a href="https://github.com/artstar10">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=artstar10&theme=dracula&show_icons=true" />
