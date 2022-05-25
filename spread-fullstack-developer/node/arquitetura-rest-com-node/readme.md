@@ -28,7 +28,14 @@ Explorando o Estilo Arquitetural REST com Node.js
   ![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-333333?style=flat&logo=visual-studio-code&logoColor=007ACC)
   
 
-<h3> para instalar as dependências do projeto </h3>
+<h3> para instalar e executar a aplicação </h3>
+
+### para instalar a node_modules e demais dependências da aplicação
+> npm i 
+### para executar a aplicação
+> node ./dist/index.js
+
+<h3> para instalar as dependências do projeto inicialmente </h3>
 
 ### para instalar o Typescript
 > npm i -g typescript
@@ -37,8 +44,16 @@ Explorando o Estilo Arquitetural REST com Node.js
 ### para instalar o Typescript em Dev
 > npm i --save-dev typescript
 ### para instalar o @types do node.js
-> nnpm i --save-dev @types/node
+> npm i --save-dev @types/node
+### para instalar o express
+> npm i --save express
+### para instalar o types do express
+> npm i --save @types/express
 
+<h3> Enpoints do projeto for Insomnia and Postman </h3>
+
+### rota status
+http://localhost:3000/status
 
 <a href="https://github.com/artstar10">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=artstar10&theme=dracula&show_icons=true" />
