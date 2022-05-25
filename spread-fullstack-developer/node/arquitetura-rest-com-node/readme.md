@@ -49,6 +49,8 @@ Explorando o Estilo Arquitetural REST com Node.js
 > npm i --save express
 ### para instalar o types do express
 > npm i --save @types/express
+### para instalar o ts-node-dev para auxiliar no desenvolvimento de Typescript dentro do node
+> npm i --save-dev ts-node-dev
 
 <h3> Enpoints do projeto for Insomnia and Postman </h3>
 
