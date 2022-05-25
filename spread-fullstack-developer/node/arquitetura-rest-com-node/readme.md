@@ -20,6 +20,7 @@ Explorando o Estilo Arquitetural REST com Node.js
   ![Postman](https://img.shields.io/badge/-Postman-333333?style=flat&logo=postman)
 
 **DevOps**
+
   ![GitHub](https://img.shields.io/badge/-GitHub-333333?style=flat&logo=github)
 
 **Ferramentas de Desenvolvimento**
@@ -28,12 +29,8 @@ Explorando o Estilo Arquitetural REST com Node.js
   
 
 <h3> para instalar as dependências do projeto </h3>
-## para instalar o Typescript
-> npm i -g typescript
-<h3> para gerar o tsconfig.json </h3>
-> tsc --init
-
-<br/>
+- npm i -g typescript (para instalar o Typescript globalmente)
+- tsc --init (para gerar o tsconfig.json)
 
 <a href="https://github.com/artstar10">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=artstar10&theme=dracula&show_icons=true" />
