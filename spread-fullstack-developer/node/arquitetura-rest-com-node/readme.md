@@ -34,6 +34,10 @@ Explorando o Estilo Arquitetural REST com Node.js
 > npm i -g typescript
 ### para gerar o tsconfig.json
 > tsc --init
+### para instalar o Typescript em Dev
+> npm i --save-dev typescript
+### para instalar o @types do node.js
+> nnpm i --save-dev @types/node
 
 
 <a href="https://github.com/artstar10">
