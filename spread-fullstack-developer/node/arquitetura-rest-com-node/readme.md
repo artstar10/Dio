@@ -30,7 +30,7 @@ Explorando o Estilo Arquitetural REST com Node.js
 
 <h3> para instalar as dependências do projeto </h3>
 ### para instalar o Typescript
-```
+
 npm i -g typescript
 
 ```
@@ -38,7 +38,6 @@ npm i -g typescript
 ```
 tsc --init
 
-```
 
 <a href="https://github.com/artstar10">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=artstar10&theme=dracula&show_icons=true" />
