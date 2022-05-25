@@ -53,6 +53,8 @@ Criando API REST com Node.js e Express
 > npm i --save @types/express
 ### para instalar o ts-node-dev para auxiliar no desenvolvimento de Typescript dentro do node
 > npm i --save-dev ts-node-dev
+### para instalar o http-status-codes
+> npm i --save http-status-codes
 
 <h3> Enpoints do projeto for Insomnia and Postman </h3>
 
@@ -60,6 +62,8 @@ Criando API REST com Node.js e Express
 http://localhost:3000/status
 ### rota de usuários
 http://localhost:3000/users
+### rota de usuários por id
+http://localhost:3000/users/1
 
 <a href="https://github.com/artstar10">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=artstar10&theme=dracula&show_icons=true" />
