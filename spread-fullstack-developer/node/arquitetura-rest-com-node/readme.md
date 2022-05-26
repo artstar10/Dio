@@ -55,7 +55,9 @@ Criando API REST com Node.js e Express
 > npm i 
 ### para executar a aplicação
 > npm run start
+
 > npm run dev
+
 > node ./dist/index.js
 
 <h3> Enpoints do projeto for Insomnia and Postman </h3>
