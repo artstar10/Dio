@@ -48,6 +48,10 @@ Criando API REST com Node.js e Express
 > npm i --save-dev ts-node-dev
 ### para instalar o http-status-codes
 > npm i --save http-status-codes
+### para instalar o pg
+> npm i --save pg
+### para instalar o types do pg
+> npm i --save-dev @types/pg
 
 <h3> para instalar e executar a aplicação </h3>
 

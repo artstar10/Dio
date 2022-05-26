@@ -10,6 +10,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Configurações de Rotas CRUD
+app.use(statusRoute);
 app.use(usersRoute);
 
 app.use(statusRoute, (req: Request, res: Response, next: NextFunction) => {
