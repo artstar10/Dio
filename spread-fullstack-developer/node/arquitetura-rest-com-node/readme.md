@@ -66,6 +66,10 @@ http://localhost:3000/users
 http://localhost:3000/users/1
 ### rota para cadastro de usuários
 http://localhost:3000/users
+### rota para atualizar de usuários por id
+http://localhost:3000/users/12345
+### rota para deletar usuários por id
+http://localhost:3000/users/12345
 
 <a href="https://github.com/artstar10">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=artstar10&theme=dracula&show_icons=true" />
