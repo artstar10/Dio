@@ -32,8 +32,11 @@ Criando API REST com Node.js e Express
 
 <h3> para instalar e executar a aplicação </h3>
 
-### para instalar a node_modules e demais dependências da aplicação
+### para instalar dependências da aplicação
 > npm i 
+### para executar a aplicação
+> npm run start
+> npm run dev
 ### para executar a aplicação
 > node ./dist/index.js
 
