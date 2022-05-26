@@ -30,14 +30,13 @@ Criando API REST com Node.js e Express
   ![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-333333?style=flat&logo=visual-studio-code&logoColor=007ACC)
   
 
-<h3> para instalar e executar a aplicação </h3>
+<h4> para instalar e executar a aplicação </h4>
 
 ### para instalar dependências da aplicação
 > npm i 
 ### para executar a aplicação
 > npm run start
 > npm run dev
-### para executar a aplicação
 > node ./dist/index.js
 
 <h3> para instalar as dependências do projeto inicialmente </h3>
