@@ -103,6 +103,14 @@ http://localhost:3000/users/12345
 https://dev.to/envoy_/150-badges-for-github-pnk#database
 
 ```
+# Banco de dados Elephantsql na nuvem
+```
+https://api.elephantsql.com/console
+
+```
+
+
+
 
 
 
