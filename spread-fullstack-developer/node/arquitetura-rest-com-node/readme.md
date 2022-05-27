@@ -7,6 +7,7 @@ Criando API REST com Node.js e Express
 - Node.js
 - Javascript
 - TypeScript
+- Elephantsql
 
 <h3> :rocket: &nbsp;Tecnologias utilizadas </h3>
 
@@ -21,6 +22,9 @@ Criando API REST com Node.js e Express
   ![Insomnia](https://img.shields.io/badge/-Insomnia-333333?style=flat&logo=insomnia)
   ![Postman](https://img.shields.io/badge/-Postman-333333?style=flat&logo=postman)
 
+**Banco de dados**
+  ![Elephantsql](https://img.shields.io/badge/sql-F80000?&logo=oracle&logoColor=white)
+
 **DevOps**
 
   ![GitHub](https://img.shields.io/badge/-GitHub-333333?style=flat&logo=github)
@@ -28,6 +32,7 @@ Criando API REST com Node.js e Express
 **Ferramentas de Desenvolvimento**
 
   ![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-333333?style=flat&logo=visual-studio-code&logoColor=007ACC)
+  ![Elephantsql](https://img.shields.io/badge/sql-F80000?&logo=oracle&logoColor=white)
   
 
 <h3> para instalar as dependências do projeto inicialmente(criar projeto) </h3>
