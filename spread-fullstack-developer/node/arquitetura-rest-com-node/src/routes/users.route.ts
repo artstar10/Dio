@@ -15,9 +15,10 @@ usersRoute.get('/users/:uuid', async (req: Request<{uuid: string }>, res: Respon
     res.status(200).send(user);
 });
 
-usersRoute.post('/users', (req: Request, res: Response, next: NextFunction) => {// CRIAR UM USUÁRIO
+usersRoute.post('/users', async (req: Request, res: Response, next: NextFunction) => {// CRIAR UM USUÁRIO
     const newUser = req.body;  
-    res.status(StatusCodes.CREATED).send(newUser);
+    const uuid = await userRepository.create(newUser);
+    res.status(StatusCodes.CREATED).send(uuid);
 });
 
 usersRoute.put('/users/:uuid', (req: Request<{uuid: string }>, res: Response, next: NextFunction) => {// ATUALIZAR UM USUÁRIO
