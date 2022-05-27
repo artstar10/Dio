@@ -23,6 +23,7 @@ Criando API REST com Node.js e Express
   ![Postman](https://img.shields.io/badge/-Postman-333333?style=flat&logo=postman)
 
 **Banco de dados**
+
   ![Elephantsql](https://img.shields.io/badge/sql-F80000?&logo=oracle&logoColor=white)
 
 **DevOps**
