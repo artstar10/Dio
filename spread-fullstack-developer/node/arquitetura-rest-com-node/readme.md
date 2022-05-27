@@ -70,7 +70,7 @@ Criando API REST com Node.js e Express
 
 > node ./dist/index.js
 
-<h3> Enpoints do projeto for Insomnia and Postman </h3>
+<h3> Endpoints local do projeto for Insomnia and Postman </h3>
 
 ### rota de status
 http://localhost:3000/status
@@ -84,6 +84,17 @@ http://localhost:3000/users
 http://localhost:3000/users/12345
 ### rota para deletar usuários por id
 http://localhost:3000/users/12345
+
+
+<h3> Endpoints do projeto com conexão no banco de dados elephantsql </h3>
+
+### rota de usuários
+http://localhost:3000/users
+### rota de usuários por id
+http://localhost:3000/users/id$do$banco$de$dados$elephantsql$aqui
+
+
+
 
 <a href="https://github.com/artstar10">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=artstar10&theme=dracula&show_icons=true" />

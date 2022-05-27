@@ -9,9 +9,10 @@ usersRoute.get('/users', async (req: Request, res: Response, next: NextFunction)
     res.status(StatusCodes.OK).send({users});
 });
 
-usersRoute.get('/users/:uuid', (req: Request<{uuid: string }>, res: Response, next: NextFunction) => {//BUSCAR USUÁRIO POR ID
+usersRoute.get('/users/:uuid', async (req: Request<{uuid: string }>, res: Response, next: NextFunction) => {//BUSCAR USUÁRIO POR ID
     const uuid = req.params.uuid;
-    res.status(200).send({ uuid })
+    const user = await userRepository.findById(uuid);
+    res.status(200).send(user);
 });
 
 usersRoute.post('/users', (req: Request, res: Response, next: NextFunction) => {// CRIAR UM USUÁRIO
