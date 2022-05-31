@@ -21,13 +21,15 @@ usersRoute.post('/users', async (req: Request, res: Response, next: NextFunction
     res.status(StatusCodes.CREATED).send(uuid);
 });
 
-usersRoute.put('/users/:uuid', (req: Request<{uuid: string }>, res: Response, next: NextFunction) => {// ATUALIZAR UM USUÁRIO
+usersRoute.put('/users/:uuid', async (req: Request<{uuid: string }>, res: Response, next: NextFunction) => {// ATUALIZAR UM USUÁRIO
     const uuid = req.params.uuid;
     const modifiedUser = req.body;
 
     modifiedUser.uuid = uuid
 
-    res.status(StatusCodes.OK).send(modifiedUser);
+    await userRepository.update(modifiedUser)//deu erro https://web.dio.me/course/nodejs-com-bancos-de-dados-relacionais-sql/learning/f3c6ba0a-b2d9-45fb-9531-91e2b7e6c718?back=/track/spread-fullstack-developer&tab=undefined&moduleId=undefined minuto06:00
+
+    res.status(StatusCodes.OK).send();
 });
 
 usersRoute.delete('/users/:uuid', (req: Request<{uuid: string }>, res: Response, next: NextFunction) => {// ATUALIZAR UM USUÁRIO
