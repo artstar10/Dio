@@ -23,7 +23,7 @@ Construindo Encurtador de URL
 
 **Banco de dados**
 
-  ![MongoDB](https://img.shields.io/badge/-MongoDB-white?style=flat&logo=mongodb&logoColor=green)
+  [![MongoDB: SEU NOME](https://img.shields.io/badge/-MongoDB-white?style=flat&logo=mongodb&logoColor=green&link=https://account.mongodb.com/account/login)](https://account.mongodb.com/account/login)
 
 **DevOps**
 
@@ -35,7 +35,7 @@ Construindo Encurtador de URL
   ![mongoDB](https://img.shields.io/badge/-MongoDB-white?style=flat&logo=mongodb&logoColor=green)
   
 
-<h3> dependências utilizadas </h3>
+<h3> dependências do projeto </h3>
 
 ```
 "dependencies": {
@@ -62,6 +62,7 @@ Construindo Encurtador de URL
 
 ### para instalar dependências da aplicação
 > npm i 
+
 ### para executar a aplicação
 > npm run start
 
