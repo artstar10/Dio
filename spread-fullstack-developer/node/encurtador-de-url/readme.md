@@ -35,30 +35,30 @@ Construindo Encurtador de URL
   ![mongoDB](https://img.shields.io/badge/-MongoDB-white?style=flat&logo=mongodb&logoColor=green)
   
 
-<h3> para instalar as dependências do projeto inicialmente(criar projeto) </h3>
+<h3> dependências utilizadas </h3>
 
-### para instalar o Typescript
-> npm i -g typescript
-### para gerar o tsconfig.json
-> tsc --init
-### para instalar o Typescript em Dev
-> npm i --save-dev typescript
-### para instalar o @types do node.js
-> npm i --save-dev @types/node
-### para instalar o express
-> npm i --save express
-### para instalar o types do express
-> npm i --save @types/express
-### para instalar o ts-node-dev para auxiliar no desenvolvimento de Typescript dentro do node
-> npm i --save-dev ts-node-dev
-### para instalar o http-status-codes
-> npm i --save http-status-codes
-### para instalar o pg
-> npm i --save pg
-### para instalar o types do pg
-> npm i --save-dev @types/pg
+```
+"dependencies": {
+    "@hasezoey/typegoose": "^5.9.2",
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "cors": "^2.8.5",
+    "eslint": "^7.32.0",
+    "express": "^4.18.1",
+    "mongoose": "^5.13.14",
+    "nodemon": "^2.0.16",
+    "shortid": "^2.2.16",
+    "tslint": "^6.1.3",
+    "typescript": "^4.7.2"
+  },
 
-<h3> para instalar e executar a aplicação </h3>
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/mongoose": "^5.7.36",
+    "@types/shortid": "0.0.29"
+  }
+  
+```
 
 ### para instalar dependências da aplicação
 > npm i 
@@ -73,6 +73,20 @@ Construindo Encurtador de URL
 
 ### rota de status
 http://localhost:5000/teste
+
+### rota shorten url
+http://localhost:5000/shorten
+
+
+<h3> Seção de erros </h3>
+
+### em caso de erro com o retorno do req.body lembrar de usar o express.json()
+
+```
+index.ts:
+api.use(express.json());
+
+```
 
 
 
