@@ -1,0 +1,25 @@
+# 🔐 Variáveis de Ambiente (Proteção de chaves de API - OpenAI, Gemini, etc)
+.env
+.env.local
+.env.development
+*.env
+
+# 🐍 Python (Arquivos gerados automaticamente e ambientes virtuais)
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+*.log
+*.db
+*.sqlite
+.adk/
+
+# 💻 Sistema Operacional (macOS)
+.DS_Store
+.DS_Store?
+._*
+
+# 📦 Node.js (Caso adicione ferramentas em Node.js neste repositório futuramente)
+node_modules/
